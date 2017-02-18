@@ -50,6 +50,14 @@
     text-align: center;
 }
 
+#logo-img {
+    background: url('../svg/si-glyph-house.svg') no-repeat;
+    width: 150px;
+    height: 130px;
+    color: black;
+    margin: 0px -20px 0px -50px;
+}
+
 #nav-list a {
     color:#FCB37B;
     text-align: center;
@@ -71,6 +79,57 @@
     padding-right: 15px;
     text-align: right;
 }
+
+#ad {
+    font-family: Ubuntu;
+    font-weight: bolder;
+}
+.looking {
+    background-color: #FCB37B;
+}
+
+.problem {
+    margin-left: -20px;
+    margin-top: 30px;
+    font-size: 22px;
+    padding: 0;
+}
+.rescueDiv {
+   background-color: #A71D31;
+    font-family: Caveat Brush;
+    color: #F1F0CC;
+}
+
+#facilities {
+    font-size: 32px;
+    text-align: center;
+    
+}
+#facilities li {
+    color: #3F0D12;
+    font-size: 28px;
+    list-style: none;
+    margin-right: 80px;
+    text-align: left;
+    font-family: Ubuntu;
+    padding-top: 25px;
+    padding-right: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.facilities {
+    text-align: center;
+    margin-right: 100px;
+    font-family: Ubuntu;
+    padding-right: 30px;
+    font-size: 38px;
+}
+
+.icon-electricity {
+    background-color: red;
+    height: 30px;
+}
+
 <!--#FCB37B -> Very Light Tangelo
 #A71D31 -> Vivid Burgundy
 #3F0D12 -> Dark Sienna
